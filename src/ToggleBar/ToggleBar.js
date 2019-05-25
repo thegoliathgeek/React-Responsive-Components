@@ -3,7 +3,7 @@ import './ToggleBar.css';
 
 class ToggleBar extends Component {
     state = {
-        myBool: false
+        myBool: true
     };
     toggleFunction1 = () => {
         this.setState({myBool: !this.state.myBool});

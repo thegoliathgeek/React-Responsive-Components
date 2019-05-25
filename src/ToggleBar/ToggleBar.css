@@ -12,19 +12,28 @@
 .toggleBar{
     width: 0;
     background-color: black;
-    height: 350px;
+    height: 200px;
     overflow: hidden;
     transition: 1s;
     position: relative;
+    padding-top: 60px;
 }
 .toggleBar a{
     text-decoration: none;
     display: block;
     padding: 12px 14px;
     color: pink;
+    font-size: 25px;
+}
+
+
+.toggleBar a:hover{
+    color: black;
+    background-color: green;
 }
 
 .toggleBar .closeTag {
     position: absolute;
     right: 0;
+    top: 0;
 }
