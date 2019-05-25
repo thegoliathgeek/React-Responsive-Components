@@ -8,6 +8,7 @@ class Home extends Component{
             <div>
             <Link className='link1' to='/collapseBar'>Collapse Bar</Link>
             <Link className='link2' to='/toggleBar'>Toggle Bar</Link>
+                <Link className='link3' to='/login'>Login</Link>
         </div>
         );
     }

@@ -1,0 +1,30 @@
+.loginDiv{
+text-align: center;
+    display: block;
+}
+
+.loginDiv p{
+    color: red;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.loginDiv p:hover{
+    color: green;
+}
+
+.loginDiv .loginBlock{
+    display: inline-block;
+    align-content: center;
+    background-color: black;
+    width: 400px;
+    height: 2px;
+    transition: 1s;
+    overflow: hidden;
+}
+
+.loginDiv .loginBlock .insideBlock{
+    padding: 12px 10px;
+    margin: 20px 15px;
+    display: block;
+}
