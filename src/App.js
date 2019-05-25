@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Route} from "react-router-dom";
 import Home from "./Home/Home";
 import CollapseBar from "./CollapseBar/Collapse";
+import ToggleBar from "./ToggleBar/ToggleBar";
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
                 <div>
                     <Route exact path='/' component={Home}/>
                     <Route path='/collapseBar' component={CollapseBar}/>
+                    <Route path='/toggleBar' component={ToggleBar}/>
                 </div>
             </Router>
         </div>

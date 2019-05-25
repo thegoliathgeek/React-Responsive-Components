@@ -1,0 +1,12 @@
+div{
+    position: relative;
+}
+
+.link1{
+    position: absolute;
+    top: 0;
+}
+.link2{
+    position: absolute;
+    top: 20px;
+}
