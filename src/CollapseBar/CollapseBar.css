@@ -1,0 +1,51 @@
+.topnav {
+    overflow: hidden;
+    background-color: black
+}
+
+.topnav a{
+    color: white;
+    display: inline;
+    text-align: center;
+    font-size: 20px;
+    padding: 16px 17px;
+    text-decoration: none;
+    float: left;
+}
+
+.topnav a:hover{
+    background-color:pink;
+}
+
+.active{
+    background-color: red;
+}
+
+.topnav .icon{
+    display: none;
+}
+
+@media screen and (max-width: 1500px) {
+    .topnav a {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+        transform: rotate(90deg);
+    }
+}
+
+@media screen and (max-width: 1500px){
+    .topnav.responsive{
+        position: relative;
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a{
+        float: none;
+        text-align: left;
+        display: block;
+    }
+}
