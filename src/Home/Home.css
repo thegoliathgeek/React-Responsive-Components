@@ -1,27 +1,20 @@
-div{
+.link{
     position: relative;
+    text-align: center;
 }
 
-.link1{
-    position: absolute;
+.link .link1,.link2,.link3,.link4{
+    text-align: center;
+    /*position: absolute;*/
     top: 0;
     text-decoration: none;
-}
-.link2{
-    position: absolute;
-    top: 20px;
-    text-decoration: none;
-}
-
-.link3{
-    position: absolute;
-    top: 40px;
-    text-decoration: none;
+    font-size: 25px;
+    border: 4px solid green;
+    margin: 20px 0 40px 0;
+    display: block;
 }
 
-.link4{
-    position: absolute;
-    top: 60px;
-    text-decoration: none;
+.link .link1:hover,.link2:hover,.link3:hover,.link4:hover{
+    background-color: grey;
+    color: black;
 }
-

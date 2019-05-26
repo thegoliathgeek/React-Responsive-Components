@@ -5,7 +5,7 @@ class Home extends Component{
     render() {
         return(
 
-            <div>
+            <div className='link'>
             <Link className='link1' to='/collapseBar'>Collapse Bar</Link>
             <Link className='link2' to='/toggleBar'>Toggle Bar</Link>
                 <Link className='link3' to='/login'>Login</Link>
